@@ -47,14 +47,22 @@ recognition.onresult = function(event) {
   diagnostic.textContent = 'Result received: ' + color + '.';
 
   	if(color == 'золотой') bg.style.backgroundColor = 'gold';
+	if(color == 'желтый') bg.style.backgroundColor = 'yellow';
+	if(color == 'лимонный') bg.style.backgroundColor = 'lemon';
+
 	if(color == 'малиновый') bg.style.backgroundColor = 'crimson';
+	if(color == 'красный') bg.style.backgroundColor = 'red';
+	if(color == 'бордовый') bg.style.backgroundColor = 'maroon';
+
 	if(color == 'светло-бирюзовый') bg.style.backgroundColor = 'cyan';
 	if(color == 'бирюзовый') bg.style.backgroundColor = 'turquoise';
+	if(color == 'темно бирюзовый' || color == 'темный бирюзовый') bg.style.backgroundColor = 'teal';
+
 	if(color == 'пурпурный') bg.style.backgroundColor = 'magenta';
 	if(color == 'фиолетовый') bg.style.backgroundColor = 'purple';
 	if(color == 'розовый') bg.style.backgroundColor = 'pink';
-	if(color == 'бордовый') bg.style.backgroundColor = 'maroon';
-	if(color == 'темно бирюзовый') bg.style.backgroundColor = 'teal';
+	
+	
 	
   console.log('Shit: ' + event.results[0][0].confidence);
 }
