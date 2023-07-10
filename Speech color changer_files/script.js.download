@@ -53,7 +53,7 @@ recognition.onresult = function(event) {
 	if(color == 'красный') bg.style.backgroundColor = 'red';
 	if(color == 'бордовый') bg.style.backgroundColor = 'maroon';
 	if(color == 'розовый') bg.style.backgroundColor = 'pink';
-	if(color == 'алый') bg.style.backgroundColor = 'scarlet';
+	if(color == 'алый') bg.style.backgroundColor = '#FF2400';
 
 	if(color == 'светло-бирюзовый') bg.style.backgroundColor = 'cyan';
 	if(color == 'бирюзовый') bg.style.backgroundColor = 'turquoise';
