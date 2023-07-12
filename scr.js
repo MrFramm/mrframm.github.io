@@ -80,6 +80,33 @@ recognition.onresult = function(event) {
     case 'кот':
       pic.src = 'https://kot-pes.com/wp-content/uploads/2019/03/post_5c906e06057ea.jpg'
     break;
+    case 'лиса':
+      pic.src = 'https://fanibani.ru/images/wp-content/uploads/2021/05/image085-3-1079x720.jpg'
+    break;
+    case 'волк':
+      pic.src = 'https://s.yimg.com/ny/api/res/1.2/gjPTHkGsl.3.Yirk1zUtkQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTYzOQ--/https://media.zenfs.com/en/business_insider_articles_888/c09d3871c28677f4386f16647f63fd00'
+    break;
+    case 'заяц':
+      pic.src = 'https://media.1istochnik.ru/attachments/istochnik/publications/10/105244/large_1628497804-60342adf09.jpeg'
+    break;
+    case 'мышь':
+      pic.src = 'https://i.pinimg.com/736x/71/3b/cb/713bcbcfeb725782792df9a4f599e3cf--house-mouse-rodents.jpg'
+    break;
+    case 'лягушка':
+      pic.src = 'https://fb.ru/misc/i/gallery/62230/2297936.jpg'
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
     case '':
       pic.src = ''
     break;
