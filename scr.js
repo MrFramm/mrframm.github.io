@@ -71,8 +71,8 @@ recognition.onresult = function(event) {
       break;
       case 'ай':
         case 'ой':
-        pic.src = 'https://drive.google.com/file/d/1aVBvtf22Al92Pc8wOF2oGnJBG0TJkiBM/view?/usp=drivesdk'
-        break;
+        pic.src = './IMG_0190.jpg'
+         break;
     case 'Papayas':
       console.log('Mangoes and papayas are $2.79 a pound.');
       // Expected output: "Mangoes and papayas are $2.79 a pound."
