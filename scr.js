@@ -67,16 +67,25 @@ recognition.onresult = function(event) {
   if(color == 'барсук') pic.src =           'https://i.pinimg.com/736x/a1/59/bf/a159bfd8b7e82a6d59679766f535c061.jpg'
 	switch (color) {
     case 'енот':
-      pic.src = ''
+      pic.src = 'https://smallivingworld.ru/800/600/http/boxbat.ru/wp-content/uploads/8/3/3/8335e780eed3310af9b4e9d67326ee6c.jpeg'
       break;
       case 'ай':
         case 'ой':
         pic.src = './IMG_0190.jpg'
          break;
-    case 'Papayas':
-      console.log('Mangoes and papayas are $2.79 a pound.');
-      // Expected output: "Mangoes and papayas are $2.79 a pound."
-      break;
+    
+    case 'лев':
+      pic.src = 'https://superwalls.top/uploads/posts/2022-09/thumbs/1662302447_3-gamerwall-pro-p-lev-i-lvenok-zhivotnie-3.jpg'
+    break;
+    case 'кот':
+      pic.src = 'https://kot-pes.com/wp-content/uploads/2019/03/post_5c906e06057ea.jpg'
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
     case '':
       pic.src = ''
     break;
