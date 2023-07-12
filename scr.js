@@ -64,8 +64,22 @@ recognition.onresult = function(event) {
 	if(color == 'пурпурный') bg.style.backgroundColor = 'magenta';
 	if(color == 'фиолетовый') bg.style.backgroundColor = 'purple';
 	if(color == 'медведь') pic.src = 'https://img5.goodfon.ru/original/320x240/1/ee/medved-mishka-buryi-priroda-morda-progulka-vzgliad-krasavets.jpg'
-	
-	
+  if(color == 'барсук') pic.src =           'https://i.pinimg.com/736x/a1/59/bf/a159bfd8b7e82a6d59679766f535c061.jpg'
+	switch (color) {
+    case 'енот':
+      pic.src = ''
+      break;
+      case 'ай':
+        pic.src = 'https://drive.google.com/file/d/1aVBvtf22Al92Pc8wOF2oGnJBG0TJkiBM/view?/usp=drivesdk'
+        break;
+    case 'Papayas':
+      console.log('Mangoes and papayas are $2.79 a pound.');
+      // Expected output: "Mangoes and papayas are $2.79 a pound."
+      break;
+    case '':
+      pic.src = ''
+    break;
+  }
 	
   console.log('Shit: ' + event.results[0][0].confidence);
 }
