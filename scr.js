@@ -46,7 +46,7 @@ recognition.onresult = function(event) {
   // We then return the transcript property of the SpeechRecognitionAlternative object
   var color = event.results[0][0].transcript;
   color = color.toLowerCase();
-  diagnostic.textContent = 'color ';
+  diagnostic.textContent = color ;
 
   	if(color == 'золотой') bg.style.backgroundColor = 'gold';
 	if(color == 'желтый' || color == 'жёлтый') bg.style.backgroundColor = 'yellow';
