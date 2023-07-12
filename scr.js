@@ -70,6 +70,7 @@ recognition.onresult = function(event) {
       pic.src = ''
       break;
       case 'ай':
+        case 'ой':
         pic.src = 'https://drive.google.com/file/d/1aVBvtf22Al92Pc8wOF2oGnJBG0TJkiBM/view?/usp=drivesdk'
         break;
     case 'Papayas':
