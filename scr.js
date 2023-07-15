@@ -225,6 +225,7 @@ recognition.onresult = function(event) {
       pic.src = 'https://lh3.googleusercontent.com/F0jme2jFQnBmhyARE0UnYrZilxyW1ukPR1dXZRNVRuDzk1yxl7bZKxMMotgRY-2jNaosHVOyue-CPZdcPab2pkatB4F0I4M9uM8pcJJstGs1B7KJtec2s9h_If4U5QZIt1OgP7_b'
     break;
     case 'мама':
+    case 'мама мама':
       pic.src = 'https://sun9-81.userapi.com/impf/c831309/v831309550/ef16c/y78hi_Cx_24.jpg?size=320x569&quality=96&rotate=270&sign=5c52e2f930bd04d4a1ede6d61a69b70d&c_uniq_tag=7XIfXuuDLdpjTOnyc6s5dq9ygSeYV3BmQPftPXAPTfE&type=album'
     break;
     case 'папа':
@@ -242,7 +243,34 @@ recognition.onresult = function(event) {
       pic.src = 'https://igroutka.ru/uploads/posts/2022-03/QuizWhoareyoufromHagiVagi_1646146529621e33e1972410.29814031.jpg'
     break;
     case 'мамочка длинные ноги':
-      pic.src = 'https://static.wikia.nocookie.net/villains/images/5/5b/146_sin_t%C3%ADtulo_20220511201316.png/revision/latest?cb=20220512011335'
+      pic.src = 'https://riseupgamer.com/wp-content/uploads/2022/05/how-to-draw-7-1024x818.png'
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
     break;
     case '':
       pic.src = ''
