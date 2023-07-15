@@ -146,6 +146,7 @@ recognition.onresult = function(event) {
       pic.src = 'https://zdraveda.ru/wp-content/uploads/2018/06/ananas.jpg'
     break;
     case 'арбуз':
+    case 'арбуз арбуз':
       pic.src = 'https://avon-c.ru/wp-content/uploads/6/a/0/6a03693b4026ca3f907ad572a93c2b92.jpeg'
     break;
     case 'дыня':
@@ -185,6 +186,7 @@ recognition.onresult = function(event) {
       pic.src = 'https://avatars.mds.yandex.net/get-eda/3529908/2d26143b4131ae7b109554041f3c5741/800x800nocrop'
     break;
     case 'шоколад':
+    case 'шоколадка':
       pic.src = 'https://mk.mrgcdn.ru/4ecc41f6b05d1c943ea71aa1c11d57a2_w720_h540.jpg'
     break;
     case 'суши':
@@ -201,10 +203,11 @@ recognition.onresult = function(event) {
     break;
     case 'азия':
     case 'хозя':
+    case 'настя':
       pic.src = 'https://sun9-76.userapi.com/impg/5EUOphc3FSBRNlHYwmJMam3S5il62gcIQEy0Sg/mSclRMjSZu0.jpg?size=807x605&quality=95&sign=2c182e114fc661a508bdb276df3802dc&c_uniq_tag=juOyuCAb277kxhJXJPF4NqZahX9Et9TL_VQHAmC4Pi0&type=album'
     break;
-    case '':
-      pic.src = ''
+    case 'конфета':
+      pic.src = 'https://office-dedamoroza.ru/img/conf/33.jpg'
     break;
     case '':
       pic.src = ''
