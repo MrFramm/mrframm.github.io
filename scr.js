@@ -230,17 +230,19 @@ recognition.onresult = function(event) {
     case 'папа':
       pic.src = 'https://sun1-91.userapi.com/s/v1/if1/tYT2JVGP8x44A3MhZWp14clEwLg9ADuhbXpiCSPvAvVv_Hsc-QEsKZ0SDTxGvQaY4deysnhu.jpg?size=400x600&quality=96&crop=0,0,402,604&ava=1'
     break;
-    case '':
-      pic.src = ''
+    case 'банбан':
+      pic.src = 'https://tuttop.com/uploads/posts/2023-03/garten-of-banban-2.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'апелла':
+      pic.src = 'https://i.ytimg.com/vi/cDKdR2CWIDM/hqdefault.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'хаги ваги':
+    case 'ходи вадик':
+    case 'одевание':
+      pic.src = 'https://igroutka.ru/uploads/posts/2022-03/QuizWhoareyoufromHagiVagi_1646146529621e33e1972410.29814031.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'мамочка длинные ноги':
+      pic.src = 'https://static.wikia.nocookie.net/villains/images/5/5b/146_sin_t%C3%ADtulo_20220511201316.png/revision/latest?cb=20220512011335'
     break;
     case '':
       pic.src = ''
