@@ -63,6 +63,10 @@ recognition.onresult = function(event) {
 
 	if(color == 'пурпурный') bg.style.backgroundColor = 'magenta';
 	if(color == 'фиолетовый') bg.style.backgroundColor = 'purple';
+
+  if(color == 'синий') bg.style.backgroundColor = 'blue';
+  if(color == 'голубой') bg.style.backgroundColor = '#81abdb';
+
 	if(color == 'медведь') pic.src = 'https://img5.goodfon.ru/original/320x240/1/ee/medved-mishka-buryi-priroda-morda-progulka-vzgliad-krasavets.jpg'
   if(color == 'барсук') pic.src =           'https://i.pinimg.com/736x/a1/59/bf/a159bfd8b7e82a6d59679766f535c061.jpg'
 	switch (color) {
@@ -71,6 +75,7 @@ recognition.onresult = function(event) {
       break;
       case 'ай':
         case 'ой':
+        case 'ой-ой-ой':
         pic.src = './IMG_0190.jpg'
          break;
     
@@ -95,8 +100,8 @@ recognition.onresult = function(event) {
     case 'лягушка':
       pic.src = 'https://fb.ru/misc/i/gallery/62230/2297936.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'черепаха':
+      pic.src = 'https://national-travel.ru/wp-content/uploads/wtt-images/2023/04/gde-zhivut-cherepahi-701.jpg'
     break;
     case '':
       pic.src = ''
