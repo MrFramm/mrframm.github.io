@@ -232,6 +232,7 @@ recognition.onresult = function(event) {
       pic.src = 'https://sun1-91.userapi.com/s/v1/if1/tYT2JVGP8x44A3MhZWp14clEwLg9ADuhbXpiCSPvAvVv_Hsc-QEsKZ0SDTxGvQaY4deysnhu.jpg?size=400x600&quality=96&crop=0,0,402,604&ava=1'
     break;
     case 'банбан':
+    case 'бонбон':
       pic.src = 'https://tuttop.com/uploads/posts/2023-03/garten-of-banban-2.jpg'
     break;
     case 'апелла':
@@ -239,6 +240,7 @@ recognition.onresult = function(event) {
     break;
     case 'хаги ваги':
     case 'ходи вадик':
+    case 'ходи ваги':
     case 'одевание':
       pic.src = 'https://igroutka.ru/uploads/posts/2022-03/QuizWhoareyoufromHagiVagi_1646146529621e33e1972410.29814031.jpg'
     break;
