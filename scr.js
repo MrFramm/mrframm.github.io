@@ -233,6 +233,7 @@ recognition.onresult = function(event) {
     break;
     case 'банбан':
     case 'бонбон':
+    case 'бон-бон':
       pic.src = 'https://tuttop.com/uploads/posts/2023-03/garten-of-banban-2.jpg'
     break;
     case 'апелла':
@@ -245,10 +246,12 @@ recognition.onresult = function(event) {
       pic.src = 'https://igroutka.ru/uploads/posts/2022-03/QuizWhoareyoufromHagiVagi_1646146529621e33e1972410.29814031.jpg'
     break;
     case 'мамочка длинные ноги':
+    case 'мамочка длинная ноги':
       pic.src = 'https://riseupgamer.com/wp-content/uploads/2022/05/how-to-draw-7-1024x818.png'
     break;
-    case '':
-      pic.src = ''
+    case 'bambolina':
+    case 'баба нина':
+      pic.src = 'https://i.ytimg.com/vi/YcJXgmqay0A/maxresdefault.jpg?7857057827'
     break;
     case '':
       pic.src = ''
