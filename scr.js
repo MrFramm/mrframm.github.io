@@ -115,6 +115,8 @@ recognition.onresult = function(event) {
     case 'аист':
       pic.src = 'https://proprikol.ru/wp-content/uploads/2020/03/kartinki-aist-51.jpg'
     break;
+    case 'верблюд':
+      pic.src = 'https://avatars.dzeninfra.ru/get-zen_doc/3683658/pub_621185a1d41b1c157dee914c_62118685b65a7d01d3f9c103/scale_1200'
     case 'мороженое':
       pic.src = 'https://www.novotest.ru/upload/iblock/92a/lyubitelyam_morozhenogo_na_zametku_sovety_rosstandarta_po_vyboru_kachestvennogo_produkta.png'
     break;
@@ -218,14 +220,14 @@ recognition.onresult = function(event) {
     case 'йогурт':
       pic.src = 'https://tvoydom.ru/photos/1002658930/1002658930_1.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'пирожок':
+      pic.src = 'https://lh3.googleusercontent.com/F0jme2jFQnBmhyARE0UnYrZilxyW1ukPR1dXZRNVRuDzk1yxl7bZKxMMotgRY-2jNaosHVOyue-CPZdcPab2pkatB4F0I4M9uM8pcJJstGs1B7KJtec2s9h_If4U5QZIt1OgP7_b'
     break;
-    case '':
-      pic.src = ''
+    case 'мама':
+      pic.src = 'https://sun9-81.userapi.com/impf/c831309/v831309550/ef16c/y78hi_Cx_24.jpg?size=320x569&quality=96&rotate=270&sign=5c52e2f930bd04d4a1ede6d61a69b70d&c_uniq_tag=7XIfXuuDLdpjTOnyc6s5dq9ygSeYV3BmQPftPXAPTfE&type=album'
     break;
-    case '':
-      pic.src = ''
+    case 'папа':
+      pic.src = 'https://sun1-91.userapi.com/s/v1/if1/tYT2JVGP8x44A3MhZWp14clEwLg9ADuhbXpiCSPvAvVv_Hsc-QEsKZ0SDTxGvQaY4deysnhu.jpg?size=400x600&quality=96&crop=0,0,402,604&ava=1'
     break;
     case '':
       pic.src = ''
