@@ -180,6 +180,7 @@ recognition.onresult = function(event) {
       pic.src = 'https://kubnews.ru/upload/resize_cache/iblock/b9a/1200_630_2/b9a42c3074349a061b45c87d1232c15f.jpg'
     break;
     case 'сочень':
+    case 'сочник':
       pic.src = 'http://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkyTwoMhOSQHMv5VD995Dx3KaKTM5SRkZCeTgDn6uOyic'
     break;
     case 'сыр':
@@ -209,11 +210,11 @@ recognition.onresult = function(event) {
     case 'конфета':
       pic.src = 'https://office-dedamoroza.ru/img/conf/33.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'ряженка':
+      pic.src = 'https://i8.otzovik.com/2020/09/17/10648806/img/1576350_28259021.jpeg'
     break;
-    case '':
-      pic.src = ''
+    case 'йогурт':
+      pic.src = 'https://tvoydom.ru/photos/1002658930/1002658930_1.jpg'
     break;
     case '':
       pic.src = ''
