@@ -76,6 +76,7 @@ recognition.onresult = function(event) {
       case 'ай':
         case 'ой':
         case 'ой-ой-ой':
+        case 'ань':
         pic.src = './IMG_0190.jpg'
          break;
     
