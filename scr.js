@@ -103,6 +103,120 @@ recognition.onresult = function(event) {
     case 'черепаха':
       pic.src = 'https://national-travel.ru/wp-content/uploads/wtt-images/2023/04/gde-zhivut-cherepahi-701.jpg'
     break;
+    case 'муха':
+      pic.src = 'https://цифокс.рф/images/Housefly_1.jpg'
+    break;
+    case 'осёл':
+      pic.src = 'https://avatars.dzeninfra.ru/get-zen_doc/1711960/pub_5f6c6e0f3ea1c17961776b30_5f6c6ee13ea1c17961791506/scale_1200'
+    break;
+    case 'слон':
+      pic.src = 'https://w.forfun.com/fetch/2e/2ed552bdb4a00b0524e61ff725e811d3.jpeg'
+    break;
+    case 'аист':
+      pic.src = 'https://proprikol.ru/wp-content/uploads/2020/03/kartinki-aist-51.jpg'
+    break;
+    case 'мороженое':
+      pic.src = 'https://www.novotest.ru/upload/iblock/92a/lyubitelyam_morozhenogo_na_zametku_sovety_rosstandarta_po_vyboru_kachestvennogo_produkta.png'
+    break;
+    case 'пицца':
+      pic.src = 'https://insanelygoodrecipes.com/wp-content/uploads/2022/04/Homemade-Pizza-with-Pepperoni-and-Cheese.jpg'
+    break;
+    case 'пельмени':
+      pic.src = 'https://i2.wp.com/sanya-anya.ru/wp-content/uploads/kak-prigotovit-domashnie-pelmeni-recept-bystryj-i-prostoj-03-930x620.jpg'
+    break;
+    case 'шашлык':
+      pic.src = 'https://fb.ru/media/i/2/3/4/5/5/2/7/i/2345527.jpg?1618765212'
+    break;
+    case 'бургер':
+      pic.src = 'https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkCKa2VlEv6l5mEoBjiOqv-aaKTM5SRkZCeTgDn6uOyic'
+    break;
+    case 'черешня':
+      pic.src = 'https://s-zametki.ru/wp-content/uploads/2019/06/poleznye-svojstva-chereshni-komu-osobenno-polezno-est-chereshnyu-po-mneniyu-uchenyh-foto-krasnaya-i-zheltaya-chereshnya.jpg'
+    break;
+    case 'виноград':
+      pic.src = 'https://weblinks.ru/wp-content/uploads/2022/01/32-11.jpg'
+    break;
+    case 'клубника':
+      pic.src = 'https://www.restoran.ru/upload/resize_cache/iblock/c81/948_800_2/klubnika.jpg'
+    break;
+    case 'яблоко':
+      pic.src = 'https://stopa03.ru/images/blog/11/apple.jpg'
+    break;
+    case 'ананас':
+      pic.src = 'https://zdraveda.ru/wp-content/uploads/2018/06/ananas.jpg'
+    break;
+    case 'арбуз':
+      pic.src = 'https://avon-c.ru/wp-content/uploads/6/a/0/6a03693b4026ca3f907ad572a93c2b92.jpeg'
+    break;
+    case 'дыня':
+      pic.src = 'https://avatars.dzeninfra.ru/get-zen_doc/4944693/pub_60eac42c563f1251152237e9_60eac49a0f1e1b2a8ced86a3/scale_1200'
+    break;
+    case 'банан':
+      pic.src = 'https://m-chu.ru/wp-content/uploads/2018/03/30b7731ff6c7965f__Banana.xxxlarge.jpg'
+    break;
+    case 'мандарин':
+      pic.src = 'https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5431942.jpg'
+    break;
+    case 'персик':
+      pic.src = 'https://www.shkolazhizni.ru/img/content/i239/239468_or.jpg'
+    break;
+    case 'манго':
+      pic.src = 'https://e7.pngegg.com/pngimages/521/99/png-clipart-mango-tropical-fruit-juice-drupe-mango-natural-foods-food.png'
+    break;
+    case 'помидор':
+      pic.src = 'https://mir-ogorodik.ru/wp-content/uploads/2018/09/Kak-zagotovit-semena-pomidorov-v-domashnih-uslovijah-1.jpeg'
+    break;
+    case 'огурец':
+      pic.src = 'https://zagadki-dlya-detej.ru/wp-content/uploads/2021/08/ogurets.jpg'
+    break;
+    case 'сладкий перец':
+      pic.src = 'https://cityfan.ru/files/2021/01/Perets2.jpg'
+    break;
+    case 'колбаса':
+      pic.src = 'https://vkusvill.ru/upload/resize/58096/58096_1200x600x70_c_o.webp'
+    break;
+    case 'грецкий орех':
+      pic.src = 'https://kubnews.ru/upload/resize_cache/iblock/b9a/1200_630_2/b9a42c3074349a061b45c87d1232c15f.jpg'
+    break;
+    case 'сочень':
+      pic.src = 'http://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkyTwoMhOSQHMv5VD995Dx3KaKTM5SRkZCeTgDn6uOyic'
+    break;
+    case 'сыр':
+      pic.src = 'https://avatars.mds.yandex.net/get-eda/3529908/2d26143b4131ae7b109554041f3c5741/800x800nocrop'
+    break;
+    case 'шоколад':
+      pic.src = 'https://mk.mrgcdn.ru/4ecc41f6b05d1c943ea71aa1c11d57a2_w720_h540.jpg'
+    break;
+    case 'суши':
+      pic.src = 'https://avatars.mds.yandex.net/get-altay/5499862/2a00000182c9297be98a309453aa64a6d5bf/XXL'
+    break;
+    case 'форель':
+      pic.src = 'https://www.victoria-group.ru/upload/iblock/8f8/8f8d11f49ac35f4ef956a71fd44851dd.jpg'
+    break;
+    case 'суп':
+      pic.src = 'https://kvashenaya-kapusta.ru/wp-content/uploads/b/b/1/bb1a2dfea6ce7586c1a5a2189b929613.jpeg'
+    break;
+    case 'каша':
+      pic.src = 'https://detkisuper.ru/wp-content/uploads/d/3/1/d31c1c81afbc03ecc45cec0cb4300f0a.jpeg'
+    break;
+    case 'азия':
+      pic.src = 'https://sun9-76.userapi.com/impg/5EUOphc3FSBRNlHYwmJMam3S5il62gcIQEy0Sg/mSclRMjSZu0.jpg?size=807x605&quality=95&sign=2c182e114fc661a508bdb276df3802dc&c_uniq_tag=juOyuCAb277kxhJXJPF4NqZahX9Et9TL_VQHAmC4Pi0&type=album'
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
+    case '':
+      pic.src = ''
+    break;
     case '':
       pic.src = ''
     break;
