@@ -206,6 +206,7 @@ recognition.onresult = function(event) {
     case 'ася':
     case 'хозя':
     case 'настя':
+    case 'азиза':
       pic.src = 'https://sun9-76.userapi.com/impg/5EUOphc3FSBRNlHYwmJMam3S5il62gcIQEy0Sg/mSclRMjSZu0.jpg?size=807x605&quality=95&sign=2c182e114fc661a508bdb276df3802dc&c_uniq_tag=juOyuCAb277kxhJXJPF4NqZahX9Et9TL_VQHAmC4Pi0&type=album'
     break;
     case 'конфета':
