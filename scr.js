@@ -61,7 +61,7 @@ recognition.onresult = function(event) {
 	if(color == 'бирюзовый') bg.style.backgroundColor = 'turquoise';
 	if(color == 'темно бирюзовый' || color == 'темный бирюзовый') bg.style.backgroundColor = 'teal';
 
-	if(color == 'пурпурный') bg.style.backgroundColor = 'magenta';
+	if(color == 'иван-чай') bg.style.backgroundColor = '#fe01f4';
 	if(color == 'фиолетовый') bg.style.backgroundColor = 'purple';
 
   if(color == 'синий') bg.style.backgroundColor = 'blue';
@@ -253,14 +253,14 @@ recognition.onresult = function(event) {
     case 'баба нина':
       pic.src = 'https://i.ytimg.com/vi/YcJXgmqay0A/maxresdefault.jpg?7857057827'
     break;
-    case '':
-      pic.src = ''
+    case 'машина':
+      pic.src = 'https://hdpic.club/uploads/posts/2021-11/1636562528_18-hdpic-club-p-krasivie-mashini-vnedorozhniki-24.jpg'
     break;
-    case '':
-      pic.src = ''
+    case 'самолёт':
+      pic.src = 'https://naked-science.ru/wp-content/uploads/2022/12/image-338.png'
     break;
-    case '':
-      pic.src = ''
+    case 'трактор':
+      pic.src = 'https://hamleys.ru/upload/resize_cache/iblock/50c/800_800_1/50c9e407cdbd6777078462e38770f20e.jpg'
     break;
     case '':
       pic.src = ''
