@@ -1,4 +1,4 @@
-import { Application, Assets, Sprite, Container } from './pixi.mjs';
+import { Application, Assets, Sprite, Container,  Texture, TilingSprite } from './pixi.mjs';
   const app = new PIXI.Application();
   // Store an array of fish sprites for animation.
 const fishes = [];
@@ -107,6 +107,27 @@ const boundHeight = app.screen.height + stagePadding * 2;
     }
 });
 }
+let overlay;
+
+export function addWaterOverlay(app)
+{
+    const texture = Texture.from('overlay');
+
+overlay = new TilingSprite({
+    texture,
+    width: app.screen.width,
+    height: app.screen.height,
+});
+app.stage.addChild(overlay);
+}
+
+export function animateWaterOverlay(app, time)
+{
+   elapsed += time.deltaTime;
+overlay.tilePosition.x = elapsed * -1;
+overlay.tilePosition.y = elapsed * -1;
+}
+
 (async () =>
 {
  
@@ -115,7 +136,12 @@ const boundHeight = app.screen.height + stagePadding * 2;
     addBackground(app);
   
     addFishes(app, fishes);
-  // Add the fish animation callback to the application's ticker.
-    app.ticker.add((time) => animateFishes(app, fishes, time));
+    addWaterOverlay(app);
+ // Add the animation callbacks to the application's ticker.
+    app.ticker.add((time) =>
+    {
+        animateFishes(app, fishes, time);
+        animateWaterOverlay(app, time);
+    });
 })();
 
