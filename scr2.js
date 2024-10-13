@@ -1,4 +1,4 @@
-import { Application } from 'pixi.js';
+import { Application } from ./ixi.js';
 
 // Asynchronous IIFE
 (async () =>
