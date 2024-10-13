@@ -137,6 +137,7 @@ overlay.tilePosition.y = elapsed * -1;
   
     addFishes(app, fishes);
     addWaterOverlay(app);
+    addDisplacementEffect(app);
   // Add the animation callbacks to the application's ticker.
     app.ticker.add((time) =>
     {
