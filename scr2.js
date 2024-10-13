@@ -1,6 +1,7 @@
 import { Application, Assets, Sprite } from './pixi.mjs';
   const app = new PIXI.Application();
-  
+  // Store an array of fish sprites for animation.
+const fishes = [];
  await app.init({background: '#1099bb',  resizeTo: window });
   document.body.appendChild(app.canvas);  
       // Add a variable to count up the seconds our demo has been running
