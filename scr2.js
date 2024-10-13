@@ -30,6 +30,9 @@ async function preload()
     ];
     await Assets.load(assets);
 }
+const background = Sprite.from('background');
+
+background.anchor.set(0.5);
 function addBackground(app)
 {
     if (app.screen.width > app.screen.height)
