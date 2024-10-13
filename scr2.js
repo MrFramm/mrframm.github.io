@@ -1,4 +1,4 @@
-import { Application, Assets, Sprite, Container,  Texture, TilingSprite } from './pixi.mjs';
+import { Application, Assets, Sprite, Container,  Texture, TilingSprite, DisplacementFilter } from './pixi.mjs';
   const app = new PIXI.Application();
   // Store an array of fish sprites for animation.
 const fishes = [];
@@ -137,7 +137,7 @@ overlay.tilePosition.y = elapsed * -1;
   
     addFishes(app, fishes);
     addWaterOverlay(app);
- // Add the animation callbacks to the application's ticker.
+  Add the animation callbacks to the application's ticker.
     app.ticker.add((time) =>
     {
         animateFishes(app, fishes, time);
