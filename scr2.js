@@ -32,7 +32,7 @@ async function preload()
 function addBackground(app)
 {
   const background = Sprite.from('background');
-
+app.stage.addChild(background);
 background.anchor.set(0.5);
     if (app.screen.width > app.screen.height)
 {
