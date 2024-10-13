@@ -1,4 +1,4 @@
-import { Application } from 'pixi.js';
+import { Application } from 'https://pixijs.download/v8.5.0/pixi.js';
 
 // Asynchronous IIFE
 (async () =>
