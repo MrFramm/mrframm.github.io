@@ -1,9 +1,7 @@
 import { Application, Assets, Sprite } from './pixi.mjs';
   const app = new PIXI.Application();
-  await app.init({background: '#1099bb',  resizeTo: window });
-  document.body.appendChild(app.canvas);
-      
-  await preload();
+  
+  
 addBackground(app);
       // Add a variable to count up the seconds our demo has been running
   let elapsed = 0.0;
@@ -49,3 +47,12 @@ else
   background.x = app.screen.width / 2;
 background.y = app.screen.height / 2;
 }
+(async () =>
+{
+  await app.init({background: '#1099bb',  resizeTo: window });
+  document.body.appendChild(app.canvas);
+    await preload();
+
+    addBackground(app);
+})();
+
