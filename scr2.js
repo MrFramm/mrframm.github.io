@@ -1,8 +1,8 @@
 import { Application, Assets, Sprite } from './pixi.mjs';
   const app = new PIXI.Application();
   
-  
-addBackground(app);
+ await app.init({background: '#1099bb',  resizeTo: window });
+  document.body.appendChild(app.canvas);  
       // Add a variable to count up the seconds our demo has been running
   let elapsed = 0.0;
   // Tell our application's ticker to run a new callback every frame, passing
@@ -49,8 +49,7 @@ background.y = app.screen.height / 2;
 }
 (async () =>
 {
-  await app.init({background: '#1099bb',  resizeTo: window });
-  document.body.appendChild(app.canvas);
+ 
     await preload();
 
     addBackground(app);
