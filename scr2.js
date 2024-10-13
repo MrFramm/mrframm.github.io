@@ -1,4 +1,4 @@
-import { Application, Assets, Sprite } from './pixi.mjs';
+import { Application, Assets, Sprite, Container } from './pixi.mjs';
   const app = new PIXI.Application();
   // Store an array of fish sprites for animation.
 const fishes = [];
