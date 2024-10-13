@@ -141,7 +141,7 @@ overlay.tilePosition.y = elapsed * -1;
     app.ticker.add((time) =>
     {
         animateFishes(app, fishes, time);
-        animateWaterOverlay(app, time);
+        //animateWaterOverlay(app, time);
     });
 })();
 
