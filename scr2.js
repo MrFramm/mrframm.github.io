@@ -77,7 +77,35 @@ const fishAssets = ['fish1', 'fish2', 'fish3', 'fish4', 'fish5'];
 }
 export function animateFishes(app, fishes, time)
 {
-    /** -- INSERT CODE HERE -- */
+    const delta = time.deltaTime;
+
+const stagePadding = 100;
+const boundWidth = app.screen.width + stagePadding * 2;
+const boundHeight = app.screen.height + stagePadding * 2;
+  fishes.forEach((fish) =>
+{
+    fish.direction += fish.turnSpeed * 0.01;
+    fish.x += Math.sin(fish.direction) * fish.speed;
+    fish.y += Math.cos(fish.direction) * fish.speed;
+    fish.rotation = -fish.direction - Math.PI / 2;
+
+    if (fish.x < -stagePadding)
+    {
+        fish.x += boundWidth;
+    }
+    if (fish.x > app.screen.width + stagePadding)
+    {
+        fish.x -= boundWidth;
+    }
+    if (fish.y < -stagePadding)
+    {
+        fish.y += boundHeight;
+    }
+    if (fish.y > app.screen.height + stagePadding)
+    {
+        fish.y -= boundHeight;
+    }
+});
 }
 (async () =>
 {
@@ -87,5 +115,7 @@ export function animateFishes(app, fishes, time)
     addBackground(app);
   
     addFishes(app, fishes);
+  // Add the fish animation callback to the application's ticker.
+    app.ticker.add((time) => animateFishes(app, fishes, time));
 })();
 
